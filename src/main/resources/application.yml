@@ -4,7 +4,7 @@ spring:
   application:
     name: gateway
   datasource:
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${DATABASE_NAME:pingtai}?useUnicode=true&characterEncoding=UTF8
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${DATABASE_NAME:pingtai}?useUnicode=true&characterEncoding=UTF8&useSSL=false
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PASS:root}
   jpa:
@@ -17,7 +17,7 @@ spring:
   redis:
     host: ${REDIS_HOST:localhost}
     port: ${REDIS_PORT:6379}
-    password: ${REDIS_PASSWORD}
+    password: ${REDIS_PASSWORD:}
 ###############################---management---##############################
 management:
   endpoints:
@@ -66,3 +66,8 @@ zuul:
       enabled: true
   prefix: /api
   retryable: true
+###############################---网关忽略校验的地址---##############################
+gate:
+  ignore:
+    startWith: ${zuul.prefix}/authserver, ${zuul.prefix}/about
+    contain: .

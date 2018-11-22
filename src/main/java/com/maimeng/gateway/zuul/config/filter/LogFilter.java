@@ -11,9 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
 
 import static com.maimeng.gateway.zuul.config.Constant.USER_ID;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
@@ -70,14 +67,4 @@ public class LogFilter extends ZuulFilter {
         return null;
     }
 
-    private void print(String s) {
-        HttpServletResponse response = RequestContext.getCurrentContext().getResponse();
-        response.setContentType("text/html; charset=utf-8");
-        try {
-            PrintWriter out = response.getWriter();
-            out.print(s);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 }
