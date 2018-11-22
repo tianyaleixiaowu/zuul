@@ -57,6 +57,7 @@ public class ResponseFilter extends ZuulFilter {
         return null;
     }
 
+    
     private String read(InputStream inputStream) throws IOException {
         ByteArrayOutputStream result = new ByteArrayOutputStream();
         byte[] buffer = new byte[1024];
