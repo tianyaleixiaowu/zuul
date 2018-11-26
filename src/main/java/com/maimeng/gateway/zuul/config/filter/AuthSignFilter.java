@@ -87,10 +87,10 @@ public class AuthSignFilter extends ZuulFilter {
         String userId = claims.getSubject();
 
         String method = serverHttpRequest.getMethod().toUpperCase();
-        if (!ptUserService.checkMenu(Long.valueOf(userId), requestPath, method)) {
+        //if (!ptUserService.checkMenu(Long.valueOf(userId), requestPath, method)) {
             //没有Authorization    TODO
             //return noAuth(exchange);
-        }
+        //}
         ctx.addZuulRequestHeader(USER_ID, userId);
 
         return null;
