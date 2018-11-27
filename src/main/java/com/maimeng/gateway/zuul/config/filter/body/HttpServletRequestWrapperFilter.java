@@ -4,6 +4,7 @@ package com.maimeng.gateway.zuul.config.filter.body;
  * @author wuweifeng wrote on 2018/11/22.
  */
 
+import com.maimeng.gateway.zuul.config.Constant;
 import org.springframework.context.annotation.Configuration;
 
 import javax.servlet.*;
@@ -22,6 +23,12 @@ public class HttpServletRequestWrapperFilter implements Filter {
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
             throws IOException, ServletException {
         ServletRequest requestWrapper = null;
+
+        String contentType = request.getContentType();
+        if (Constant.APP_JSON.equals(contentType)) {
+            chain.doFilter(request, response);
+            return;
+        }
         if (request instanceof HttpServletRequest) {
             requestWrapper = new BodyReaderHttpServletRequestWrapper((HttpServletRequest) request);
         }
