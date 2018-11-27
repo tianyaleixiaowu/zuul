@@ -25,7 +25,7 @@ public class HttpServletRequestWrapperFilter implements Filter {
         ServletRequest requestWrapper = null;
 
         String contentType = request.getContentType();
-        if (Constant.APP_JSON.equals(contentType)) {
+        if (!Constant.APP_JSON.equals(contentType)) {
             chain.doFilter(request, response);
             return;
         }
