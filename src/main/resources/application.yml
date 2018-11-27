@@ -45,9 +45,9 @@ logging:
 ribbon:
   eureka:
     enable: true
-  ReadTimeout: 300  #请求处理的超时时间
-  ConnectTimeout: 500  #请求连接的超时时间
-  SocketTimeout: 500
+  ReadTimeout: 5000  #请求处理的超时时间
+  ConnectTimeout: 3000  #请求连接的超时时间
+  SocketTimeout: 3000
   #OkToRetryOnAllOperations: true  #对所有请求都开启重试
   MaxAutoRetries: 1  #对当前服务的重试次数（如果404，则再重试MaxAutoRetries次，如果还是404，则切换到其他服务)
   MaxAutoRetriesNextServer: 1  #切换服务的次数，只切换一次服务，不行就拉倒
