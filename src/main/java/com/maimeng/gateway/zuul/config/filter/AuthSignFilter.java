@@ -1,5 +1,6 @@
 package com.maimeng.gateway.zuul.config.filter;
 
+import com.maimeng.gateway.zuul.config.exception.NoLoginException;
 import com.maimeng.gateway.zuul.config.jwt.JwtUtils;
 import com.maimeng.gateway.zuul.core.service.PtUserService;
 import com.netflix.zuul.ZuulFilter;
@@ -69,18 +70,17 @@ public class AuthSignFilter extends ZuulFilter {
         String jwtToken = serverHttpRequest.getHeader(AUTHORIZATION);
         if (jwtToken == null) {
             //没有Authorization
-            print("{\"code\":401}");
-            return null;
+            throw new NoLoginException();
+            //print("{\"code\":401}");
+            //return null;
         }
         Claims claims = jwtUtils.getClaimByToken(jwtToken);
         if (claims == null) {
-            print("{\"code\":401}");
-            return null;
+            throw new NoLoginException();
         }
         logger.info("token的过期时间是：" + DateUtil.format(claims.getExpiration(), NORM_DATETIME_MINUTE_PATTERN));
         if (jwtUtils.isTokenExpired(claims.getExpiration())) {
-            print("{\"code\":401}");
-            return null;
+            throw new NoLoginException();
         }
 
         //获取用户ID，开始校验用户的菜单权限
