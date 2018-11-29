@@ -29,7 +29,7 @@ public class RefreshRouteService {
     }
 
 
-    @Scheduled(cron = "0 0/2 * * * ?")
+    @Scheduled(cron = "0 */2 * * * ?")
     public void fetch() {
         refreshRoute();
     }
