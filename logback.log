@@ -1,369 +1,411 @@
-2018-11-29 00:02:34.987  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s757ms).
-2018-11-29 00:03:04.422  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s436ms), soft-evicting connections from pool.
-2018-11-29 00:03:06.363  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:08:06.370  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:13:06.389  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:18:06.408  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:23:06.419  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:28:06.433  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:33:06.451  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 00:44:31.327  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s473ms).
-2018-11-29 02:45:27.928  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h26s598ms).
-2018-11-29 02:47:59.508  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 02:52:59.521  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 02:57:59.534  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 03:02:59.545  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 03:07:59.555  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 03:12:59.569  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 03:26:54.646  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m26s330ms).
-2018-11-29 05:27:41.880  INFO 3927 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:9999 - Re-registering apps/GATEWAY
-2018-11-29 05:27:41.890  INFO 3927 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:9999: registering service...
-2018-11-29 05:27:41.949  INFO 3927 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:9999 - registration status: 204
-2018-11-29 05:27:53.151  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s502ms).
-2018-11-29 05:27:54.405  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 05:32:54.421  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 05:37:54.440  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 05:42:54.454  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 05:47:54.469  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 05:52:54.481  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 07:57:51.014  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h27s467ms).
-2018-11-29 07:57:51.954  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:02:51.960  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:07:51.979  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:12:51.994  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:17:52.009  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:22:52.020  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:27:52.035  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 08:36:52.506  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m31s32ms).
-2018-11-29 09:45:26.292  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h8m3s773ms).
-2018-11-29 09:46:26.848  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 09:51:26.860  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 09:56:26.874  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:01:26.892  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:06:26.901  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:11:26.954  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:16:26.968  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:21:26.986  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:26:27.000  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:31:27.026  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:36:27.043  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:41:27.055  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:46:27.074  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:51:27.108  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 10:56:27.123  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:01:27.138  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:06:27.167  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:11:27.184  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:16:27.204  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:21:27.232  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:26:27.249  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:31:27.266  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:36:27.290  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:41:27.310  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:46:27.324  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:51:27.349  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 11:56:27.362  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:01:27.373  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:06:27.399  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:11:27.413  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:16:27.434  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:21:27.454  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:26:27.481  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:31:27.491  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:36:27.507  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:41:27.531  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:46:37.984  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s644ms).
-2018-11-29 12:47:07.186  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:49:55.843  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m47s846ms).
-2018-11-29 12:54:25.042  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 12:59:25.058  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:04:25.075  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:09:25.097  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:14:25.114  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:19:25.131  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:24:25.161  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:29:25.176  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:39:53.210  WARN 3927 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m50s98ms).
-2018-11-29 13:40:52.049  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:45:52.063  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:50:52.078  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 13:55:52.093  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:00:52.108  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:05:52.123  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:10:52.143  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:15:52.158  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:20:52.174  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:25:52.188  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:30:52.215  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:35:52.229  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:40:52.245  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:45:52.265  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:50:52.278  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 14:55:52.294  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:00:52.317  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:05:52.328  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:10:52.344  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:12:33.996  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : -------------------用户发起请求-----------------
-2018-11-29 15:12:33.998  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : URL : http://localhost:9999/api/uplus/company/1/detail/confirm
-2018-11-29 15:12:33.999  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : HTTP_METHOD : POST
-2018-11-29 15:12:33.999  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : Content-type：application/x-www-form-urlencoded
-2018-11-29 15:12:33.999  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : userId为：1
-2018-11-29 15:12:34.000  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : 传参为：
-2018-11-29 15:12:34.004  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : capital->500万
-2018-11-29 15:12:34.006  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : address->123456
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : saleMobile->18310611224
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : mobile->18310611223
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : ipo->1
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : contactPerson->小胖3
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : type->1
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : confirm->true
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : intro->三生三世十里桃花
-2018-11-29 15:12:34.007  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : name->c3
-2018-11-29 15:12:34.014  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.LogFilter       : property->1
-2018-11-29 15:12:34.134  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.AuthSignFilter  : token的过期时间是：2018-12-04 10:53
-2018-11-29 15:12:34.175  WARN 3927 --- [http-nio-9999-exec-6] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 5000ms for the command youplus is set lower than the combination of the Ribbon read and connect timeout, 32000ms.
-2018-11-29 15:12:34.926  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.ResponseFilter  : 返回值为：
-2018-11-29 15:12:34.927  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.ResponseFilter  : {"code":200,"message":"SUCCESS","data":"操作成功"}
-2018-11-29 15:12:34.927  INFO 3927 --- [http-nio-9999-exec-6] c.m.g.zuul.config.filter.ResponseFilter  : -------------------用户请求结束-----------------
-2018-11-29 15:15:52.369  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:20:52.386  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:25:52.400  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:28:30.457  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : -------------------用户发起请求-----------------
-2018-11-29 15:28:30.457  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : URL : http://localhost:9999/api/uplus/company
-2018-11-29 15:28:30.457  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : HTTP_METHOD : GET
-2018-11-29 15:28:30.458  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : Content-type：application/x-www-form-urlencoded
-2018-11-29 15:28:30.458  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : userId为：1
-2018-11-29 15:28:30.458  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : 传参为：
-2018-11-29 15:28:30.462  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.LogFilter       : name->c1
-2018-11-29 15:28:30.481  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.AuthSignFilter  : token的过期时间是：2018-12-04 10:53
-2018-11-29 15:28:30.928  WARN 3927 --- [http-nio-9999-exec-8] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 5000ms for the command youplus is set lower than the combination of the Ribbon read and connect timeout, 32000ms.
-2018-11-29 15:28:31.149  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.ResponseFilter  : 返回值为：
-2018-11-29 15:28:31.149  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.ResponseFilter  : {"code":200,"message":"SUCCESS","data":{"totalPage":0,"totalCount":0,"list":[]}}
-2018-11-29 15:28:31.155  INFO 3927 --- [http-nio-9999-exec-8] c.m.g.zuul.config.filter.ResponseFilter  : -------------------用户请求结束-----------------
-2018-11-29 15:30:52.425  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:33:11.782  INFO 8570 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : The following profiles are active: local
-2018-11-29 15:33:11.798  INFO 8570 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5f2f577: startup date [Thu Nov 29 15:33:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62833051
-2018-11-29 15:33:13.347  INFO 8570 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-11-29 15:33:13.738  INFO 8570 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-11-29 15:33:13.776  INFO 8570 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRepository.
-2018-11-29 15:33:13.780  INFO 8570 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRoleRepository.
-2018-11-29 15:33:13.782  INFO 8570 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtRoleRepository.
-2018-11-29 15:33:13.786  INFO 8570 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRepository.
-2018-11-29 15:33:13.788  INFO 8570 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRoleRepository.
-2018-11-29 15:33:14.210  INFO 8570 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
-2018-11-29 15:33:14.380  INFO 8570 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
-2018-11-29 15:33:14.853  INFO 8570 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ceaed2c2-a97c-3778-bfe1-b912ea46a34d
-2018-11-29 15:33:14.997  INFO 8570 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-11-29 15:33:15.296  INFO 8570 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$baa67d1d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-11-29 15:33:15.606  INFO 8570 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d6c0801a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-11-29 15:33:16.186  WARN 8570 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2018-11-29 15:33:16.187  INFO 8570 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2018-11-29 15:33:16.249  INFO 8570 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@55736cfe
-2018-11-29 15:33:16.558  INFO 8570 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:33:16.593  INFO 8570 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+2018-12-17 14:52:27.624  INFO 1672 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : The following profiles are active: local
+2018-12-17 14:52:27.648  INFO 1672 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5b970f7: startup date [Mon Dec 17 14:52:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@329dbdbf
+2018-12-17 14:52:29.439  INFO 1672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-17 14:52:29.858  INFO 1672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-17 14:52:29.909  INFO 1672 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRepository.
+2018-12-17 14:52:30.022  INFO 1672 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRoleRepository.
+2018-12-17 14:52:30.023  INFO 1672 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtRoleRepository.
+2018-12-17 14:52:30.024  INFO 1672 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRepository.
+2018-12-17 14:52:30.025  INFO 1672 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRoleRepository.
+2018-12-17 14:52:30.233  INFO 1672 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
+2018-12-17 14:52:30.393  INFO 1672 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2018-12-17 14:52:30.816  INFO 1672 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ceaed2c2-a97c-3778-bfe1-b912ea46a34d
+2018-12-17 14:52:30.955  INFO 1672 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-12-17 14:52:31.299  INFO 1672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$8d2261cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:52:31.686  INFO 1672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a93c64c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-17 14:52:32.216  WARN 1672 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-17 14:52:32.217  INFO 1672 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-17 14:52:32.247  INFO 1672 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4d0cc83e
+2018-12-17 14:52:32.581  INFO 1672 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:52:32.614  INFO 1672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-2018-11-29 15:33:16.754  INFO 8570 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
-2018-11-29 15:33:16.757  INFO 8570 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2018-11-29 15:33:16.829  INFO 8570 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-11-29 15:33:17.046  INFO 8570 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2018-11-29 15:33:17.526  INFO 8570 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2018-11-29 15:33:17.551  INFO 8570 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2018-11-29 15:33:18.595  INFO 8570 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:33:20.438  INFO 8570 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2018-11-29 15:33:21.225  WARN 8570 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2018-11-29 15:33:21.225  INFO 8570 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2018-11-29 15:33:21.389  INFO 8570 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:33:21.819  INFO 8570 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5f2f577: startup date [Thu Nov 29 15:33:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62833051
-2018-11-29 15:33:21.924  WARN 8570 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2018-11-29 15:33:22.000  INFO 8570 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<com.maimeng.gateway.zuul.config.exception.ErrorHandlerController$ErrorBean> com.maimeng.gateway.zuul.config.exception.ErrorHandlerController.error(javax.servlet.http.HttpServletRequest)
-2018-11-29 15:33:22.004  INFO 8570 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refreshRoute],methods=[GET]}" onto public java.lang.String com.maimeng.gateway.zuul.core.controller.RouteController.refresh()
-2018-11-29 15:33:22.005  INFO 8570 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/watchRoute]}" onto public java.lang.Object com.maimeng.gateway.zuul.core.controller.RouteController.watchNowRoute()
-2018-11-29 15:33:22.119  INFO 8570 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:33:22.119  INFO 8570 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:33:24.634  INFO 8570 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2018-11-29 15:33:24.687  INFO 8570 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 22 endpoint(s) beneath base path '/actuator'
-2018-11-29 15:33:24.704  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.706  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.707  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.709  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.711  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.712  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.713  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.714  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.716  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.717  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.718  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.720  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.722  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.731  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.731  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.732  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.733  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.734  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.735  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.741  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.743  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.744  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.745  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.746  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.747  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.748  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.749  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.750  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.751  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes/{format}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.751  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/filters],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:33:24.753  INFO 8570 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-11-29 15:33:24.877  INFO 8570 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
-2018-11-29 15:33:24.904  INFO 8570 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2018-11-29 15:33:24.968  INFO 8570 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2018-11-29 15:33:25.063  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2018-11-29 15:33:25.209  INFO 8570 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2018-11-29 15:33:25.209  INFO 8570 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2018-11-29 15:33:25.498  INFO 8570 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2018-11-29 15:33:25.499  INFO 8570 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2018-11-29 15:33:25.984  INFO 8570 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:33:26.036  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2018-11-29 15:33:26.037  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2018-11-29 15:33:26.038  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2018-11-29 15:33:26.038  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2018-11-29 15:33:26.038  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2018-11-29 15:33:26.038  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2018-11-29 15:33:26.038  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2018-11-29 15:33:26.306  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2018-11-29 15:33:26.309  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2018-11-29 15:33:26.313  INFO 8570 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2018-11-29 15:33:26.317  INFO 8570 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1543476806316 with initial instances count: 2
-2018-11-29 15:33:26.347  INFO 8570 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : Started ZuulApplicationTests in 16.351 seconds (JVM running for 17.749)
-2018-11-29 15:33:26.617  INFO 8570 --- [Thread-8] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5f2f577: startup date [Thu Nov 29 15:33:11 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@62833051
-2018-11-29 15:33:26.620  INFO 8570 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application gateway with eureka with status DOWN
-2018-11-29 15:33:26.621  WARN 8570 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1543476806621, current=DOWN, previous=STARTING]
-2018-11-29 15:33:26.623  INFO 8570 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1: registering service...
-2018-11-29 15:33:26.626  INFO 8570 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
-2018-11-29 15:33:26.628  INFO 8570 --- [Thread-8] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
-2018-11-29 15:33:26.691  INFO 8570 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:33:26.693  INFO 8570 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1 - registration status: 204
-2018-11-29 15:33:26.694  INFO 8570 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2018-11-29 15:33:26.699  WARN 8570 --- [Thread-8] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-11-29 15:33:26.699  INFO 8570 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2018-11-29 15:33:26.710  INFO 8570 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : -------------------用户发起请求-----------------
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : URL : http://localhost:9999/api/uplus/company
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : HTTP_METHOD : GET
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : Content-type：application/x-www-form-urlencoded
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : userId为：1
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : 传参为：
-2018-11-29 15:34:06.594  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.LogFilter       : name->c1
-2018-11-29 15:34:06.612  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.AuthSignFilter  : token的过期时间是：2018-12-04 10:53
-2018-11-29 15:34:06.618  WARN 3927 --- [http-nio-9999-exec-9] o.s.c.n.z.f.r.s.AbstractRibbonCommand    : The Hystrix timeout of 5000ms for the command youplus is set lower than the combination of the Ribbon read and connect timeout, 32000ms.
-2018-11-29 15:34:07.298  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.ResponseFilter  : 返回值为：
-2018-11-29 15:34:07.298  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.ResponseFilter  : {"code":200,"message":"SUCCESS","data":{"totalPage":1,"totalCount":1,"list":[{"id":1,"name":"c1","address":"123456","property":"1","type":"1","ipo":true,"mobile":"18310611223","createTime":1543475555000}]}}
-2018-11-29 15:34:07.299  INFO 3927 --- [http-nio-9999-exec-9] c.m.g.zuul.config.filter.ResponseFilter  : -------------------用户请求结束-----------------
-2018-11-29 15:35:52.441  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:40:52.455  INFO 3927 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:42:50.180  INFO 8683 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : The following profiles are active: local
-2018-11-29 15:42:50.199  INFO 8683 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@3f2ef586: startup date [Thu Nov 29 15:42:50 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59e2d8e3
-2018-11-29 15:42:51.746  INFO 8683 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-11-29 15:42:52.098  INFO 8683 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-11-29 15:42:52.134  INFO 8683 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRepository.
-2018-11-29 15:42:52.140  INFO 8683 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtMenuRoleRepository.
-2018-11-29 15:42:52.141  INFO 8683 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtRoleRepository.
-2018-11-29 15:42:52.142  INFO 8683 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRepository.
-2018-11-29 15:42:52.143  INFO 8683 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.maimeng.gateway.zuul.core.repository.PtUserRoleRepository.
-2018-11-29 15:42:52.405  INFO 8683 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'counterFactory' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulMetricsConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulMetricsConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration; factoryMethodName=counterFactory; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/cloud/netflix/zuul/ZuulServerAutoConfiguration$ZuulCounterFactoryConfiguration.class]]
-2018-11-29 15:42:52.591  INFO 8683 --- [main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
-2018-11-29 15:42:53.077  INFO 8683 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=ceaed2c2-a97c-3778-bfe1-b912ea46a34d
-2018-11-29 15:42:53.222  INFO 8683 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
-2018-11-29 15:42:53.508  INFO 8683 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edfe9047] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-11-29 15:42:53.816  INFO 8683 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a189344] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-11-29 15:42:54.374  WARN 8683 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2018-11-29 15:42:54.374  INFO 8683 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2018-11-29 15:42:54.411  INFO 8683 --- [main] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@4e424582
-2018-11-29 15:42:54.752  INFO 8683 --- [main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:42:54.783  INFO 8683 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
-	name: default
-	...]
-2018-11-29 15:42:54.940  INFO 8683 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
-2018-11-29 15:42:54.944  INFO 8683 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
-2018-11-29 15:42:55.023  INFO 8683 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
-2018-11-29 15:42:55.219  INFO 8683 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2018-11-29 15:42:55.589  INFO 8683 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2018-11-29 15:42:55.610  INFO 8683 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-2018-11-29 15:42:56.694  INFO 8683 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:42:58.493  INFO 8683 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
-2018-11-29 15:42:59.422  WARN 8683 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
-2018-11-29 15:42:59.423  INFO 8683 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2018-11-29 15:42:59.579  INFO 8683 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:42:59.971  INFO 8683 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@3f2ef586: startup date [Thu Nov 29 15:42:50 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59e2d8e3
-2018-11-29 15:43:00.069  WARN 8683 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2018-11-29 15:43:00.138  INFO 8683 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<com.maimeng.gateway.zuul.config.exception.ErrorHandlerController$ErrorBean> com.maimeng.gateway.zuul.config.exception.ErrorHandlerController.error(javax.servlet.http.HttpServletRequest)
-2018-11-29 15:43:00.144  INFO 8683 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refreshRoute],methods=[GET]}" onto public java.lang.String com.maimeng.gateway.zuul.core.controller.RouteController.refresh()
-2018-11-29 15:43:00.144  INFO 8683 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/watchRoute]}" onto public java.lang.Object com.maimeng.gateway.zuul.core.controller.RouteController.watchNowRoute()
-2018-11-29 15:43:00.232  INFO 8683 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:43:00.232  INFO 8683 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
-2018-11-29 15:43:02.823  INFO 8683 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
-2018-11-29 15:43:02.868  INFO 8683 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 22 endpoint(s) beneath base path '/actuator'
-2018-11-29 15:43:02.896  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.897  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.898  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.899  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.900  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.902  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.903  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.904  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.906  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.907  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.908  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.909  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.910  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.911  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.912  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.913  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.914  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.916  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.924  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.925  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.925  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.926  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.926  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.927  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.928  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.929  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.930  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.931  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.932  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes/{format}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.933  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/filters],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
-2018-11-29 15:43:02.937  INFO 8683 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
-2018-11-29 15:43:03.149  INFO 8683 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
-2018-11-29 15:43:03.196  INFO 8683 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
-2018-11-29 15:43:03.283  INFO 8683 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2018-11-29 15:43:03.420  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2018-11-29 15:43:03.585  INFO 8683 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
-2018-11-29 15:43:03.586  INFO 8683 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
-2018-11-29 15:43:03.935  INFO 8683 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
-2018-11-29 15:43:03.936  INFO 8683 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
-2018-11-29 15:43:04.440  INFO 8683 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2018-11-29 15:43:04.501  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2018-11-29 15:43:04.502  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2018-11-29 15:43:04.502  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2018-11-29 15:43:04.502  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2018-11-29 15:43:04.503  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2018-11-29 15:43:04.503  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2018-11-29 15:43:04.503  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2018-11-29 15:43:04.907  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2018-11-29 15:43:04.912  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2018-11-29 15:43:04.918  INFO 8683 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2018-11-29 15:43:04.924  INFO 8683 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1543477384922 with initial instances count: 2
-2018-11-29 15:43:04.951  INFO 8683 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : Started ZuulApplicationTests in 16.512 seconds (JVM running for 17.946)
-2018-11-29 15:43:05.241  INFO 8683 --- [Thread-8] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@3f2ef586: startup date [Thu Nov 29 15:42:50 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@59e2d8e3
-2018-11-29 15:43:05.244  INFO 8683 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application gateway with eureka with status DOWN
-2018-11-29 15:43:05.246  WARN 8683 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1543477385246, current=DOWN, previous=STARTING]
-2018-11-29 15:43:05.248  INFO 8683 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1: registering service...
-2018-11-29 15:43:05.251  INFO 8683 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
-2018-11-29 15:43:05.253  INFO 8683 --- [Thread-8] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
-2018-11-29 15:43:05.317  INFO 8683 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1 - registration status: 204
-2018-11-29 15:43:05.321  INFO 8683 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2018-11-29 15:43:05.324  INFO 8683 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
-2018-11-29 15:43:05.330  WARN 8683 --- [Thread-8] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
-2018-11-29 15:43:05.331  INFO 8683 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2018-11-29 15:43:05.343  INFO 8683 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2018-12-17 14:52:32.778  INFO 1672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2.17.Final}
+2018-12-17 14:52:32.781  INFO 1672 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2018-12-17 14:52:32.862  INFO 1672 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-12-17 14:52:33.066  INFO 1672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-12-17 14:52:33.471  INFO 1672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2018-12-17 14:52:33.495  INFO 1672 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2018-12-17 14:52:34.665  INFO 1672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:52:36.801  INFO 1672 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2018-12-17 14:52:38.003  WARN 1672 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-12-17 14:52:38.003  INFO 1672 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-12-17 14:52:38.177  INFO 1672 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 14:52:38.615  INFO 1672 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@5b970f7: startup date [Mon Dec 17 14:52:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@329dbdbf
+2018-12-17 14:52:38.722  WARN 1672 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-12-17 14:52:38.810  INFO 1672 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<com.maimeng.gateway.zuul.config.exception.ErrorHandlerController$ErrorBean> com.maimeng.gateway.zuul.config.exception.ErrorHandlerController.error(javax.servlet.http.HttpServletRequest)
+2018-12-17 14:52:38.815  INFO 1672 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/watchRoute]}" onto public java.lang.Object com.maimeng.gateway.zuul.core.controller.RouteController.watchNowRoute()
+2018-12-17 14:52:38.816  INFO 1672 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/refreshRoute],methods=[GET]}" onto public java.lang.String com.maimeng.gateway.zuul.core.controller.RouteController.refresh()
+2018-12-17 14:52:38.923  INFO 1672 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 14:52:38.924  INFO 1672 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-12-17 14:52:42.010  INFO 1672 --- [main] o.s.c.n.zuul.ZuulFilterInitializer       : Starting filter initializer
+2018-12-17 14:52:42.066  INFO 1672 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 22 endpoint(s) beneath base path '/actuator'
+2018-12-17 14:52:42.094  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/archaius],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.096  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/auditevents],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.097  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/beans],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.098  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.099  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/conditions],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.100  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/configprops],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.101  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.102  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env/{toMatch}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.103  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.104  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/env],methods=[DELETE],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.105  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.106  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/logfile],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.107  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.108  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.109  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/loggers/{name}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.110  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/heapdump],methods=[GET],produces=[application/octet-stream]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.110  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/threaddump],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.111  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.112  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.114  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/scheduledtasks],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.115  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.116  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/mappings],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.118  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/refresh],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.119  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/features],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.121  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v2+json || application/json],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.122  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/service-registry],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.122  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.123  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes],methods=[POST],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.124  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/routes/{format}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.126  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/filters],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-12-17 14:52:42.128  INFO 1672 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-12-17 14:52:42.231  INFO 1672 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-12-17 14:52:42.267  INFO 1672 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-12-17 14:52:42.382  INFO 1672 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-12-17 14:52:42.487  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-12-17 14:52:42.614  INFO 1672 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-12-17 14:52:42.615  INFO 1672 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-12-17 14:52:43.022  INFO 1672 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-12-17 14:52:43.023  INFO 1672 --- [main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-12-17 14:52:43.605  INFO 1672 --- [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2018-12-17 14:52:43.652  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2018-12-17 14:52:43.653  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2018-12-17 14:52:43.653  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2018-12-17 14:52:43.653  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2018-12-17 14:52:43.653  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2018-12-17 14:52:43.654  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2018-12-17 14:52:43.654  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2018-12-17 14:52:43.778 ERROR 1672 --- [main] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.get(WebResource.java:509) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplicationsInternal(AbstractJerseyEurekaHttpClient.java:194) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.getApplications(AbstractJerseyEurekaHttpClient.java:165) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) [eureka-client-1.9.3.jar:1.9.3]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8.CGLIB$eurekaClient$0(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8$$FastClassBySpringCGLIB$$e2863146.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$371/449261773.getObject(Unknown Source) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) [spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:193) [spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy135.getApplications(Unknown Source) [na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient.getServices(EurekaDiscoveryClient.java:119) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient.getServices(CompositeDiscoveryClient.java:48) [spring-cloud-commons-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.locateRoutes(DiscoveryClientRouteLocator.java:116) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.locateRoutes(DiscoveryClientRouteLocator.java:43) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.SimpleRouteLocator.doRefresh(SimpleRouteLocator.java:170) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.refresh(DiscoveryClientRouteLocator.java:166) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.CompositeRouteLocator.refresh(CompositeRouteLocator.java:75) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.web.ZuulHandlerMapping.setDirty(ZuulHandlerMapping.java:79) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulRefreshListener.reset(ZuulServerAutoConfiguration.java:264) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulRefreshListener.onApplicationEvent(ZuulServerAutoConfiguration.java:245) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:886) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) [spring-boot-test-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_40]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.6.jar:4.5.6]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 101 common frames omitted
+
+2018-12-17 14:52:43.782  WARN 1672 --- [main] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused
+2018-12-17 14:52:43.785 ERROR 1672 --- [main] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1 - was unable to refresh its cache! status = Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1051) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:965) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:414) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:269) [eureka-client-1.9.3.jar:1.9.3]
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:63) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:290) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8.CGLIB$eurekaClient$0(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8$$FastClassBySpringCGLIB$$e2863146.invoke(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228) [spring-core-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:365) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$b0a55de8.eurekaClient(<generated>) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_40]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_40]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_40]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_40]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:583) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1246) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1096) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:535) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$1(AbstractBeanFactory.java:353) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$371/449261773.getObject(Unknown Source) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.getBean(GenericScope.java:390) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.context.scope.GenericScope.get(GenericScope.java:184) [spring-cloud-context-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:350) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) [spring-beans-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.target.SimpleBeanTargetSource.getTarget(SimpleBeanTargetSource.java:35) [spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:193) [spring-aop-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at com.sun.proxy.$Proxy135.getApplications(Unknown Source) [na:na]
+	at org.springframework.cloud.netflix.eureka.EurekaDiscoveryClient.getServices(EurekaDiscoveryClient.java:119) [spring-cloud-netflix-eureka-client-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient.getServices(CompositeDiscoveryClient.java:48) [spring-cloud-commons-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.locateRoutes(DiscoveryClientRouteLocator.java:116) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.locateRoutes(DiscoveryClientRouteLocator.java:43) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.SimpleRouteLocator.doRefresh(SimpleRouteLocator.java:170) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.discovery.DiscoveryClientRouteLocator.refresh(DiscoveryClientRouteLocator.java:166) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.filters.CompositeRouteLocator.refresh(CompositeRouteLocator.java:75) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.web.ZuulHandlerMapping.setDirty(ZuulHandlerMapping.java:79) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulRefreshListener.reset(ZuulServerAutoConfiguration.java:264) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.cloud.netflix.zuul.ZuulServerAutoConfiguration$ZuulRefreshListener.onApplicationEvent(ZuulServerAutoConfiguration.java:245) [spring-cloud-netflix-zuul-2.0.1.RELEASE.jar:2.0.1.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:400) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:354) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:886) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) [spring-context-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:386) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) [spring-boot-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:127) [spring-boot-test-2.0.6.RELEASE.jar:2.0.6.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) [spring-test-5.0.10.RELEASE.jar:5.0.10.RELEASE]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) [surefire-junit4-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125) [surefire-booter-2.21.0.jar:2.21.0]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413) [surefire-booter-2.21.0.jar:2.21.0]
+
+2018-12-17 14:52:43.786  WARN 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Using default backup registry implementation which does not do anything.
+2018-12-17 14:52:43.790  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2018-12-17 14:52:43.799  INFO 1672 --- [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2018-12-17 14:52:43.805  INFO 1672 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1545029563803 with initial instances count: 0
+2018-12-17 14:52:43.823  INFO 1672 --- [main] c.m.gateway.zuul.ZuulApplicationTests    : Started ZuulApplicationTests in 18.613 seconds (JVM running for 20.1)
+2018-12-17 14:52:44.177  INFO 1672 --- [Thread-8] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@5b970f7: startup date [Mon Dec 17 14:52:27 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@329dbdbf
+2018-12-17 14:52:44.179  INFO 1672 --- [Thread-8] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application gateway with eureka with status DOWN
+2018-12-17 14:52:44.181  WARN 1672 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1545029564181, current=DOWN, previous=STARTING]
+2018-12-17 14:52:44.184  INFO 1672 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1: registering service...
+2018-12-17 14:52:44.187  INFO 1672 --- [Thread-8] o.s.c.support.DefaultLifecycleProcessor  : Stopping beans in phase 0
+2018-12-17 14:52:44.188  INFO 1672 --- [Thread-8] o.s.c.n.zuul.ZuulFilterInitializer       : Stopping filter initializer
+2018-12-17 14:52:44.195 ERROR 1672 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RedirectingEurekaHttpClient  : Request execution error
+
+com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.sun.jersey.api.client.Client.handle(Client.java:652) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.sun.jersey.api.client.WebResource$Builder.post(WebResource.java:570) ~[jersey-client-1.19.1.jar:1.19.1]
+	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.register(AbstractJerseyEurekaHttpClient.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_40]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_40]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_40]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_40]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_40]
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118) ~[httpclient-4.5.6.jar:4.5.6]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56) ~[httpclient-4.5.6.jar:4.5.6]
+	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173) ~[jersey-apache-client4-1.19.1.jar:1.19.1]
+	... 30 common frames omitted
+
+2018-12-17 14:52:44.196  WARN 1672 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.d.s.t.d.RetryableEurekaHttpClient    : Request execution failed with message: java.net.ConnectException: Connection refused
+2018-12-17 14:52:44.196  WARN 1672 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_GATEWAY/172.16.1.248:gateway:-1 - registration failed Cannot execute request on any known server
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) [eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_40]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+
+2018-12-17 14:52:44.197  WARN 1672 --- [DiscoveryClient-InstanceInfoReplicator-0] c.n.discovery.InstanceInfoReplicator     : There was a problem with the instance info replicator
+
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$1.execute(EurekaHttpClientDecorator.java:59) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.DiscoveryClient.register(DiscoveryClient.java:829) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121) ~[eureka-client-1.9.3.jar:1.9.3]
+	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101) [eureka-client-1.9.3.jar:1.9.3]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_40]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_40]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [na:1.8.0_40]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [na:1.8.0_40]
+	at java.lang.Thread.run(Thread.java:745) [na:1.8.0_40]
+
+2018-12-17 14:52:44.274  INFO 1672 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2018-12-17 14:52:44.278  INFO 1672 --- [Thread-8] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2018-12-17 14:52:44.283  WARN 1672 --- [Thread-8] .s.c.a.CommonAnnotationBeanPostProcessor : Invocation of destroy method failed on bean with name 'scopedTarget.eurekaClient': org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'eurekaInstanceConfigBean': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-12-17 14:52:44.283  INFO 1672 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2018-12-17 14:52:44.292  INFO 1672 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
