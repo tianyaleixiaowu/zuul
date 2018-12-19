@@ -69,5 +69,5 @@ zuul:
 ###############################---网关忽略校验的地址---##############################
 gate:
   ignore:
-    startWith: ${zuul.prefix}/authserver, ${zuul.prefix}/about
-    contain: .，weChat
+    startWith: ${zuul.prefix}/authserver, ${zuul.prefix}/about, ${zuul.prefix}/uplus/weChat
+    contain: .
