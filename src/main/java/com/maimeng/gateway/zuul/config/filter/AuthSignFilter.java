@@ -60,8 +60,10 @@ public class AuthSignFilter extends ZuulFilter {
     public Object run() throws ZuulException {
         RequestContext ctx = RequestContext.getCurrentContext();
         HttpServletRequest serverHttpRequest = ctx.getRequest();
+
         //类似于 /youplus/company/error
         String requestPath = serverHttpRequest.getRequestURI();
+        logger.info("请求的地址是");
         // 不进行拦截的地址
         if (isStartWith(requestPath) || isContains(requestPath)) {
             return null;
