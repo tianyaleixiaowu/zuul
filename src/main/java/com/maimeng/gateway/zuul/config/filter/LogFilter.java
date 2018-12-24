@@ -12,8 +12,8 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 
-import static com.maimeng.gateway.zuul.config.Constant.USER_ID;
 import static org.springframework.cloud.netflix.zuul.filters.support.FilterConstants.PRE_TYPE;
+import static org.springframework.http.HttpHeaders.AUTHORIZATION;
 import static org.springframework.http.HttpHeaders.CONTENT_TYPE;
 
 /**
@@ -48,7 +48,7 @@ public class LogFilter extends ZuulFilter {
         logger.info("URL : " + serverHttpRequest.getRequestURL().toString());
         logger.info("HTTP_METHOD : " + method);
         logger.info("Content-type：" + serverHttpRequest.getHeader(CONTENT_TYPE));
-        logger.info("userId为：" + serverHttpRequest.getHeader(USER_ID));
+        logger.info("AUTHORIZATION为：" + serverHttpRequest.getHeader(AUTHORIZATION));
         logger.info("传参为：");
 
         if (Constant.APP_JSON.equals(serverHttpRequest.getHeader(Constant.CONTENT_TYPE))) {

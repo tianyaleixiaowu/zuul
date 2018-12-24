@@ -7,6 +7,7 @@ import com.maimeng.gateway.zuul.core.model.PtMenu;
 import com.maimeng.gateway.zuul.core.model.PtRole;
 import com.maimeng.gateway.zuul.core.model.PtUser;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -16,6 +17,7 @@ import java.util.regex.Pattern;
  * @author wuweifeng wrote on 2018/10/30.
  */
 @Service
+@Transactional
 public class PtUserService {
     @Resource
     private PtRoleManager ptRoleManager;

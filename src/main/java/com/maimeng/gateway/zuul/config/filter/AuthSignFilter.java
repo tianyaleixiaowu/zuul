@@ -63,7 +63,7 @@ public class AuthSignFilter extends ZuulFilter {
 
         //类似于 /youplus/company/error
         String requestPath = serverHttpRequest.getRequestURI();
-        logger.info("请求的地址是");
+        logger.info("请求的地址是" + requestPath);
         // 不进行拦截的地址
         if (isStartWith(requestPath) || isContains(requestPath)) {
             return null;
