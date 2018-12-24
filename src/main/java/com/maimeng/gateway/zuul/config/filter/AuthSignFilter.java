@@ -73,8 +73,6 @@ public class AuthSignFilter extends ZuulFilter {
         if (jwtToken == null) {
             //没有Authorization
             throw new NoLoginException();
-            //print("{\"code\":401}");
-            //return null;
         }
         Claims claims = jwtUtils.getClaimByToken(jwtToken);
         if (claims == null) {
@@ -85,9 +83,12 @@ public class AuthSignFilter extends ZuulFilter {
             throw new NoLoginException();
         }
 
-        //获取用户ID，开始校验用户的菜单权限
+        //校验state
         String userId = claims.getSubject();
-
+        if (!ptUserService.checkState(Long.valueOf(userId))) {
+            throw new NoLoginException();
+        }
+        //获取用户ID，开始校验用户的菜单权限
         String method = serverHttpRequest.getMethod().toUpperCase();
         //if (!ptUserService.checkMenu(Long.valueOf(userId), requestPath, method)) {
             //没有Authorization    TODO

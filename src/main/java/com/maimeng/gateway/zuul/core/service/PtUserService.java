@@ -2,8 +2,10 @@ package com.maimeng.gateway.zuul.core.service;
 
 import com.maimeng.gateway.zuul.core.manager.PtRoleManager;
 import com.maimeng.gateway.zuul.core.manager.PtRoleMenuManager;
+import com.maimeng.gateway.zuul.core.manager.PtUserManager;
 import com.maimeng.gateway.zuul.core.model.PtMenu;
 import com.maimeng.gateway.zuul.core.model.PtRole;
+import com.maimeng.gateway.zuul.core.model.PtUser;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -19,9 +21,10 @@ public class PtUserService {
     private PtRoleManager ptRoleManager;
     @Resource
     private PtRoleMenuManager ptRoleMenuManager;
+    @Resource
+    private PtUserManager ptUserManager;
 
     public boolean checkMenu(Long userId, String path, String method) {
-
         List<PtRole> roleList = ptRoleManager.findRolesByUser(userId);
         List<PtMenu> menuList = ptRoleMenuManager.findAllMenuByRoles(roleList);
         for (PtMenu menu : menuList) {
@@ -36,6 +39,14 @@ public class PtUserService {
             }
         }
 
+        return false;
+    }
+
+    public boolean checkState(Long userId) {
+        PtUser ptUser = ptUserManager.find(userId);
+        if (ptUser != null && ptUser.getState() == 0) {
+            return true;
+        }
         return false;
     }
 
