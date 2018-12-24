@@ -59,6 +59,15 @@ public class PtUser extends BaseEntity {
      */
     private Integer state;
 
+    private boolean deleteFlag = false;
+
+    public boolean isDeleteFlag() {
+        return deleteFlag;
+    }
+
+    public void setDeleteFlag(boolean deleteFlag) {
+        this.deleteFlag = deleteFlag;
+    }
 
     public String getTitle() {
         return title;

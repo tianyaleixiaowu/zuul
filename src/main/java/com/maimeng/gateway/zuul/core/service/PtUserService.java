@@ -44,7 +44,7 @@ public class PtUserService {
 
     public boolean checkState(Long userId) {
         PtUser ptUser = ptUserManager.find(userId);
-        if (ptUser != null && ptUser.getState() == 0) {
+        if (ptUser != null && ptUser.getState() == 0 && !ptUser.isDeleteFlag()) {
             return true;
         }
         return false;
