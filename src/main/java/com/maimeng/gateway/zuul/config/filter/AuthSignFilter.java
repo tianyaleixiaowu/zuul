@@ -70,6 +70,11 @@ public class AuthSignFilter extends ZuulFilter {
         }
 
         String jwtToken = serverHttpRequest.getHeader(AUTHORIZATION);
+        //忽略的header
+        if ("ignore".equals(jwtToken)) {
+            ctx.addZuulRequestHeader(USER_ID, "1");
+            return null;
+        }
         if (jwtToken == null) {
             //没有Authorization
             throw new NoLoginException();
