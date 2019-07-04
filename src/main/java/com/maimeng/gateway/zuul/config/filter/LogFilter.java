@@ -2,6 +2,7 @@ package com.maimeng.gateway.zuul.config.filter;
 
 import com.maimeng.gateway.zuul.config.Constant;
 import com.maimeng.gateway.zuul.config.filter.body.BodyReaderHttpServletRequestWrapper;
+import com.maimeng.gateway.zuul.tool.IpUtil;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
@@ -49,6 +50,8 @@ public class LogFilter extends ZuulFilter {
         logger.info("HTTP_METHOD : " + method);
         logger.info("Content-type：" + serverHttpRequest.getHeader(CONTENT_TYPE));
         logger.info("AUTHORIZATION为：" + serverHttpRequest.getHeader(AUTHORIZATION));
+        logger.info("RemoteAddr为：" + serverHttpRequest.getRemoteAddr());
+        logger.info("IP为：" + IpUtil.getIpAddress(serverHttpRequest));
         logger.info("传参为：");
 
         if (Constant.APP_JSON.equals(serverHttpRequest.getHeader(Constant.CONTENT_TYPE))) {
